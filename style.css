@@ -1,0 +1,27 @@
+
+.body{
+   background-color: lightyellow;
+}
+img.image-1{
+   float: left;
+   margin-right: 10px;
+   position: absolute;top: 80pt;
+   width: 20%;
+   border: 1px solid lightblue;
+  border-radius: 4px;
+  padding: 5px lightblue;
+
+
+}
+
+img.image-2{
+   float: right;
+   margin-left: 10px;
+   position: absolute;top: 110pt;
+   position: absolute;right: 40pt;
+   width: 20%;
+   border: 1px solid lightblue;
+   border-radius: 4px;
+   padding: 5px lightblue;
+   
+}
