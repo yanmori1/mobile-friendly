@@ -1,57 +1,49 @@
-
-
-/* Default styles for larger screens */
+/* Style for the body */
 .body {
-   font-family: Arial, sans-serif;
-   background-color: #f0f0f0;
-   margin: 0;
-   padding: 0;
-   text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
-h1 {
-   color: #333;
+/* Style for the main heading */
+.main-heading {
+    color: #333;
 }
 
-blockquote {
-   background-color: #fff;
-   padding: 20px;
-   margin: 20px;
-   border-radius: 5px;
-   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+/* Style for blockquote */
+.content-block {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
-img {
-   max-width: 100%;
-   height: auto;
+/* Style for section headings */
+.section-heading {
+    font-size: 24px;
+    color: #333;
 }
 
-/* Media query for smaller screens (e.g., mobile devices) */
-@media (max-width: 768px) {
-   .body {
-       font-size: 16px; /* Adjust font size for smaller screens */
-   }
+/* Style for section text */
+.section-text {
+    font-size: 16px;
+    text-align: center;
+}
 
-   h1 {
-       font-size: 24px; /* Adjust font size for smaller screens */
-   }
+/* Style for images */
+.image-container {
+    display: flex;
+    justify-content: space-between; /* Images on opposite sides */
+    align-items: center; /* Vertically center the images */
+    flex-wrap: wrap; /* Allow wrapping for small screens */
+}
 
-   blockquote {
-       margin: 10px;
-       padding: 10px;
-   }
-
-   /* Center-align text within blockquote on smaller screens */
-   blockquote p {
-       text-align: center;
-   }
-
-   /* Adjust image sizes for smaller screens */
-   .image-1,
-   .image-2 {
-       width: 100%;
-       max-width: 300px;
-       height: auto;
-       margin: 10px auto;
-   }
+.image-1,
+.image-2 {
+    max-width: 45%; /* Adjust the width of each image as needed */
+    max-height: 300px;
+    margin: 10px;
 }
